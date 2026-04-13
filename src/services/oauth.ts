@@ -1,6 +1,5 @@
 import { OAuthPlatform, PlatformConfig, PlatformTokens, PlatformUser } from '../types/oauth';
 import { userRepository, platformConnectionRepository } from '../db';
-import { v4 as uuidv4 } from 'uuid';
 
 const platformConfigs: Record<string, PlatformConfig> = {
   github: {
