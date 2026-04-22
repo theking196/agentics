@@ -6,4 +6,4 @@ dist/
 *.tgz
 coverage/
 .vscode/
-.idea/
+.idea/*.tsbuildinfo
